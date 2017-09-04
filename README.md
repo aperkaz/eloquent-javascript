@@ -11,7 +11,6 @@ Partially based on [offline-js-playground](https://github.com/aperkaz/offline-js
 | `clean`       | Clean `/lib`    |
 | `test`        | Execute test cases    |
 | `test:watch`  | Watch `test`     |
-| `cover`       | Yeld coverage    |
 | `lint`        | Lint EsLint errors   |
 | `lint:fix`        | Fix EsLint errors   |
 | `build`       | Transpile ES6 to ES5  |

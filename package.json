@@ -6,7 +6,6 @@
     "clean": "rimraf lib",
     "test": "cross-env BABEL_ENV=commonjs mocha --reporter spec --compilers js:babel-register --recursive",
     "test:watch": "npm test -- --watch",
-    "cover": "istanbul cover node_modules/mocha/bin/_mocha -- --compilers js:babel-core/register --colors --reporter dot test/",
     "lint": "eslint src test",
     "lint:fix": "eslint --fix src test",
     "build": "cross-env BABEL_ENV=commonjs babel src --out-dir lib"
@@ -37,7 +36,6 @@
     "eslint-plugin-import": "^2.0.0",
     "eslint-plugin-jsx-a11y": "^2.2.2",
     "eslint-plugin-react": "^6.3.0",
-    "istanbul": "^1.0.0-alpha",
     "mocha": "^3.0.2",
     "rimraf": "^2.5.4"
   }
