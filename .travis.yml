@@ -1,8 +1,5 @@
 language: node_js
 
-env:
-  CODECLIMATE_REPO_TOKEN: e14c4be3b411d282e44bca390464bad0f06340ed8fea08b8de1bf95f038d0803
-
 node_js:
   - stable
 
