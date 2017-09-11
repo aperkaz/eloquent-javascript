@@ -20,7 +20,4 @@ describe('2-Functions/2-RecursiveEven', () => {
   it('should return -2 even', () => {
     assert(isEven(-2));
   });
-  it('should return -2123131 odd', () => {
-    assert(!isEven(-21231));
-  });
 });
