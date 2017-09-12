@@ -1,6 +1,5 @@
 // -- dependencies --
 import {assert} from 'chai';
-import assertArrays from 'chai-arrays';
 // -- app --
 import { rangeFrom, arraySum }from '../../src/3-Objects/1-RangeSum';
 
