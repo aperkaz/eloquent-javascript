@@ -48,7 +48,6 @@ const deepEqual = (arg1, arg2) => {
 
   // are objects
   if (areObjects(arg1, arg2)) {
-
     if (arg1 === null || arg2 === null) {
       if (arg1 !== arg2) {
         return false;
