@@ -8,7 +8,8 @@
     "test:watch": "npm test -- --watch",
     "lint": "eslint src test",
     "lint:fix": "eslint --fix src test",
-    "build": "cross-env BABEL_ENV=commonjs babel src --out-dir lib"
+    "build": "cross-env BABEL_ENV=commonjs babel src --out-dir lib",
+    "dockerized": "docker run -it --rm -v $(pwd):/src -w /src node:6 bash"
   },
   "repository": {
     "type": "git",
