@@ -2,14 +2,7 @@
 Average of people in the ancestry file. Group the results
 by century.
  */
-
-
 import ancestors from './ancestors';
-
-export const average = (array) => {
-  const plus = (a, b) => (a + b);
-  return array.reduce(plus) / array.length;
-};
 
 export const personsCentury = person => (
   Math.ceil(person.died / 100)

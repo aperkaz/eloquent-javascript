@@ -1,4 +1,7 @@
-// Vector constructor
+const typeError = () => (
+  'The argument needs to be of Vector type'
+);
+
 export default class Vector {
   constructor(x, y) {
     this.x = x;
@@ -13,13 +16,13 @@ export default class Vector {
     if (vec instanceof Vector) {
       return new Vector(this.x + vec.x, this.y + vec.y);
     }
-    return 'The argument needs to be of Vector type';
+    return typeError();
   }
 
   minus(vec) {
     if (vec instanceof Vector) {
       return new Vector(this.x - vec.x, this.y - vec.y);
     }
-    return 'The argument needs to be of Vector type';
+    return typeError();
   }
 }
